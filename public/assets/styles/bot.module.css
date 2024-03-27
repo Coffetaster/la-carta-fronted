@@ -1,0 +1,71 @@
+.closeRobot{
+  cursor: pointer;
+  border-radius: 50%;
+  
+  /* background-color: #141e2f; */
+  background-color: #ff5a5f;
+  bottom: 15px;
+  color: #eee;
+  font-size: 14px;
+  height: 45px;
+  line-height: 40px;
+  padding: 3px 10px;
+  position: fixed;
+  right: 20px;
+  text-align: center;
+  width: 45px;
+  z-index: 99999;
+  max-width: 380px;
+  transition: all 0.4s ease-in-out;
+}
+
+.chatContainer{
+
+    cursor: pointer;
+    border-radius: 8px;
+
+    background-color: #fff;
+    bottom: 15px;
+    color: #eee;
+    font-size: 14px;
+    height: 90%;
+    line-height: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    width: 90%;
+    z-index: 999999;
+    max-width: 380px;
+    box-shadow: 0 3px 15px -7px #000;
+    
+}
+
+.chatContainer .chatClose{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: .3rem;
+    width: 100%;
+    height: 15%;
+    min-height: 50px;
+    
+    
+}
+
+.chatContainer .chat{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow-x: auto;
+    padding: .3rem;
+    width: 100%;
+    height: 80%;
+    
+}
